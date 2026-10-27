@@ -1,0 +1,13 @@
+{
+  "name": "spaceapp",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:api": "node --watch api/server.mjs",
+    "dev:web": "vite dev",
+    "dev:worker": "node --watch worker/index.mjs",
+    "dev:stack": "node scripts/dev-stack.mjs",
+    "dev:stack:stop": "node scripts/dev-stack.mjs --stop",
+    "dev:stack:clean": "node scripts/dev-stack.mjs --clean",
+    "smoke:offline": "node scripts/smoke-offline.mjs"
+  }
+}
